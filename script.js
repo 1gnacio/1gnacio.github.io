@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
         var hasErrors = false;
         var validElements = document.getElementsByClassName("is-valid");
         var invalidElements = document.getElementsByClassName("is-invalid");
+        
+        message = message.replace(/(\r\n|\n|\r)/gm, "%0D%0A");
 
         while (validElements.length > 0) {
             validElements[0].classList.remove("is-valid");
