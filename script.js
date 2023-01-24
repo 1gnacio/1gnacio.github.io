@@ -85,4 +85,5 @@ document.addEventListener("DOMContentLoaded", function() {
     interval: 6000,
     touch: false
     })
+
 });

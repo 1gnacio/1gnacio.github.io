@@ -52,13 +52,6 @@ header nav ul li a:hover {
   padding: 3em 0;
 }
 
-.carousel-img {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 75vh;
-}
-
 .hero h1 {
   margin-bottom: 1em;
 }
