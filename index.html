@@ -23,7 +23,7 @@
                   <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#work">Projects</a>
+                  <a class="nav-link" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
@@ -49,15 +49,15 @@
                   Resume
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a href='ignacio garcia segovia cv english.pdf' target="_blank" class="link-success">English</a></li>
-                  <li class="list-group-item"><a href='Ignacio Garcia Segovia CV.pdf' target="_blank" class="link-success">Spanish</a></li>
+                  <li class="list-group-item"><i class="fa-solid fa-file"></i> <a href='docs/ignacio garcia segovia cv english.pdf' target="_blank" class="link-success" style="text-decoration: none;">English</a></li>
+                  <li class="list-group-item"><i class="fa-solid fa-file"></i> <a href='docs/Ignacio Garcia Segovia CV.pdf' target="_blank" class="link-success" style="text-decoration: none;">Spanish</a></li>
                 </ul>
               </div>
             </div>
           </section>
           <section id="work" class="section">
             <div class="container">
-              <h2>Projects</h2>
+              <h2>Work</h2>
               <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -72,7 +72,7 @@
                         <img src="img/ationet.png" class="d-block w-100" alt="Ationet" style="filter: brightness(50%); background-color: white; background-position: bottom;">
                         <div class="carousel-caption d-none d-md-block">
                           <h3>C# / SQL / .NET Developer in ATIONET</h3>
-                            <p>Web developer</p>
+                            <p>FullStack web developer</p>
                             <a href="https://www.ationet.com" class="btn btn-success" target="_blank">View Site</a>
                         </div>
                       </div>
@@ -89,7 +89,7 @@
                         <div class="carousel-caption d-none d-md-block">
                           <h3>Super Mario Bros.</h3>
                             <p>Multiplayer hack of Super Mario Bros. made with SDL in C++, shared project.</p>
-                            <a href="https://drive.google.com/file/d/16gH1DN8ZiDyhlcIIqaCcFI_RglYyru6f/view" class="btn btn-success" target="_blank">View Project</a>
+                            <a href="https://drive.google.com/file/d/16gH1DN8ZiDyhlcIIqaCcFI_RglYyru6f/view" class="btn btn-success" target="_blank">Preview</a>
                         </div>
                       </div>
                       <div class="carousel-item carousel-img">
@@ -131,28 +131,37 @@
           <section id="contact" class="container">
             <div class="card text-center">
               <div class="card-header">
-                <h2 style="margin-bottom: 0;">Contact Me</h2>
+                <h2 style="margin-bottom: 0;">Contact Me <i class="fa-solid fa-paper-plane"></i></h2>
               </div>
               <div class="card-body">
-                <form action="#" method="post">
+                <form action="#" method="post" class="needs-validation" novalidate>
                   <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="name" name="name" placeholder="Name" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
                     <label for="name">Name</label>
+                    <div class="invalid-feedback" id="name-validation">
+                      Please enter your name.
+                    </div>
                   </div>
                   <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required />
                     <label for="email">Email address</label>
+                    <div class="invalid-feedback" id="email-validation">
+                      Please enter a valid email.
+                    </div>
                   </div>
                   <div class="form-floating mb-3">
                     <textarea class="form-control" id="message" name="message" placeholder="Leave your comment" rows="3" required></textarea>
                     <label for="message">Message</label>
+                    <div class="invalid-feedback" id="message-validation">
+                      Please enter your message.
+                    </div>
                   </div>
                   <button id="send-email" type="submit" value="Send" class="btn btn-success">Submit</button>
                 </form>
               </div>
               <div class="card-footer text-muted">
-                  <p><i class="fa-solid fa-envelope"></i> <a href="mailto:igarcia@fi.uba.ar">igarcia@fi.uba.ar</a></p>
-                  <p class="mb-0"><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/ignacio-carlos-garcia-segovia-205142205" target="_blank">Ignacio Garcia Segovia</a></p>
+                  <p><i class="fa-solid fa-envelope"></i> <a href="mailto:igarcia@fi.uba.ar" class="link-success" style="text-decoration: none;">igarcia@fi.uba.ar</a></p>
+                  <p class="mb-0"><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/ignacio-carlos-garcia-segovia-205142205" class="link-success" style="text-decoration: none;" target="_blank">Ignacio Garcia Segovia</a></p>
               </div>
             </div>
           </section>
