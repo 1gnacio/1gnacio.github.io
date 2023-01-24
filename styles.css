@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #8796a0;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  padding: 1.5em 0;
+  text-align: center;
+  color: white;
+}
+
+header nav {
+  background-color: #4CAF50;
+  color: white;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #FF5722;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 35vh;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.carousel-img {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 75vh;
+}
+
+.hero h1 {
+  margin-bottom: 1em;
+}
+
+.hero a.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #F5F5F5;
+  color: #333;
+  padding: 3em 0;
+}
+
+#about h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#about p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#about img.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #4CAF50;
+  margin-bottom: 1em;
+}
+
+#about .social-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#about .social-links li {
+  margin-right: 1em;
+}
+
+#about .social-links a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#about .social-links a:hover {
+  color: #FF5722;
+}
+
+/* Work Section Styles */
+#work {
+  background-color: #F5F5F5;
+  color: #333;
+  padding: 3em 0;
+}
+
+#work h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#work .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#work .col-6 {
+  width: 50%;
+  margin: 1em;
+  text-align: center;
+}
+
+#work .card {
+  background-color: white;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+#work .card img {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+#work .card h3 {
+  margin-bottom: 1em;
+}
+
+#work .card p {
+  margin-bottom: 1em;
+}
+
+#work .card a.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
